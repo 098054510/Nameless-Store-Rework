@@ -15,15 +15,20 @@ namespace Nameless_Store.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Let's Talk about Nameless Store - Cars And Autoparts.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact the site owner.";
 
+            return View();
+        }
+
+        public ActionResult Services()
+        {
             return View();
         }
     }
