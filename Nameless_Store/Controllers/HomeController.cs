@@ -31,5 +31,10 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Brands()
+        {
+            return View();
+        }
     }
 }
