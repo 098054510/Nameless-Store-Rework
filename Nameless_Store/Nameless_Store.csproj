@@ -256,8 +256,9 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
-    <Content Include="Views\Home\Volkswagen_cars.cshtml" />
     <Content Include="Views\Home\Brands.cshtml" />
+    <Content Include="Views\Home\Volkswagen_cars.cshtml" />
+    <Content Include="Views\Home\General_Motors_cars.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

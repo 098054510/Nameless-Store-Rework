@@ -36,5 +36,15 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Volkswagen_cars()
+        {
+            return View();
+        }
+
+        public ActionResult General_Motors_cars()
+        {
+            return View();
+        }
     }
 }
