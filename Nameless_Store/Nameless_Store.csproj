@@ -263,6 +263,9 @@
     <Content Include="Views\Home\Thanks_for_your_Purchase.cshtml" />
     <Content Include="Views\Home\Passat_LSE.cshtml" />
     <Content Include="Views\Home\Gol_GTS_92.cshtml" />
+    <Content Include="Views\Home\Golf_GTI.cshtml" />
+    <Content Include="Views\Home\Jetta_TSI.cshtml" />
+    <Content Include="Views\Home\Passat_VR6.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

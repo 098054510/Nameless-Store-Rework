@@ -66,5 +66,20 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Golf_GTI()
+        {
+            return View();
+        }
+
+        public ActionResult Jetta_TSI()
+        {
+            return View();
+        }
+
+        public ActionResult Passat_VR6()
+        {
+            return View();
+        }
     }
 }
