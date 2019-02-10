@@ -261,6 +261,8 @@
     <Content Include="Views\Home\General_Motors_cars.cshtml" />
     <Content Include="Views\Home\Gol_1.cshtml" />
     <Content Include="Views\Home\Thanks_for_your_Purchase.cshtml" />
+    <Content Include="Views\Home\Passat_LSE.cshtml" />
+    <Content Include="Views\Home\Gol_GTS_92.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

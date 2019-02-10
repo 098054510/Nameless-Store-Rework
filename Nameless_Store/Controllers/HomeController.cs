@@ -56,5 +56,15 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Passat_LSE()
+        {
+            return View();
+        }
+
+        public ActionResult Gol_GTS_92()
+        {
+            return View();
+        }
     }
 }
