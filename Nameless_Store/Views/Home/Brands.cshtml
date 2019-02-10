@@ -1,13 +1,21 @@
 ﻿@{
-    ViewData["Title"] = "Nameless Store Dealership";
+    ViewData["Title"] = "Nameless Store Dealership - Brands";
 }
 <h2>@ViewData["Title"]</h2>
-<div class="col-md-3">
-    <h2>Brands</h2>
-    <ul>
-        <li>
-            <a class="btn btn-default" href="http://localhost:62862/Home/Volkswagen_cars"><img src="~/images/volkswagen-passenger-cars-vector-logo-small.svg" alt="ASP.NET" class="img-responsive" /></a>
-        </li>
-        <li><a class="btn btn-default" href="http://localhost:62862/Home/General_Motors_cars"><img src="~/images/General-Motors-logo.svg" alt="ASP.NET" class="img-responsive" /></a></li>
-    </ul>
+
+<div class="row body-content">
+    <div class="col-md-3">
+        <h2>Germany</h2>
+        <ul>
+            <li>
+                <a class="btn btn-success" href="http://localhost:62862/Home/Volkswagen_cars"><img src="~/images/volkswagen-passenger-cars-vector-logo-small.svg" alt="ASP.NET" class="img-responsive" /></a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>United States</h2>
+        <ul>
+            <li><a class="btn btn-success" href="http://localhost:62862/Home/General_Motors_cars"><img src="~/images/General-Motors-logo.svg" alt="ASP.NET" class="img-responsive" /></a></li>
+        </ul>
+    </div>
 </div>
