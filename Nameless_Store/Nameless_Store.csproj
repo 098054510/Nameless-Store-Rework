@@ -260,6 +260,7 @@
     <Content Include="Views\Home\Volkswagen_cars.cshtml" />
     <Content Include="Views\Home\General_Motors_cars.cshtml" />
     <Content Include="Views\Home\Gol_1.cshtml" />
+    <Content Include="Views\Home\Thanks_for_your_Purchase.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

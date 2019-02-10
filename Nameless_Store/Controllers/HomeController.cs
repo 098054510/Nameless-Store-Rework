@@ -53,5 +53,8 @@ namespace Nameless_Store.Controllers
         }
 
         public ActionResult Thanks_for_your_Purchase()
+        {
+            return View();
+        }
     }
 }
