@@ -46,5 +46,12 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Gol_1()
+        {
+            return View();
+        }
+
+        public ActionResult Thanks_for_your_Purchase()
     }
 }
