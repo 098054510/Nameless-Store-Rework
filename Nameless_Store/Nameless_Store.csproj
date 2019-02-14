@@ -269,6 +269,8 @@
     <Content Include="Views\Home\Chevette_DL.cshtml" />
     <Content Include="Views\Home\Chevy_500.cshtml" />
     <Content Include="Views\Home\Omega_Suprema.cshtml" />
+    <Content Include="Views\Home\Gol_Promo.cshtml" />
+    <Content Include="Views\Home\Omega_Promo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

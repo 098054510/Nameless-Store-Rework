@@ -96,5 +96,15 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Gol_Promo()
+        {
+            return View();
+        }
+
+        public ActionResult Omega_Promo()
+        {
+            return View();
+        }
     }
 }
