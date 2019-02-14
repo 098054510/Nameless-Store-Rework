@@ -1,5 +1,27 @@
 ﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "American Cars";
 }
+<h2>@ViewData["Title"]</h2>
 
+<div class="col-md-5">
+    <h2>General Motors Co. Cars</h2>
+    <li><a class="btn btn-success" href="http://localhost:62862/Home/General_Motors_cars"><img src="~/images/General-Motors-logo.svg" alt="ASP.NET" class="img-responsive" /></a></li>
+    <h2></h2>
+    <li><a class="btn btn-danger" href="http://localhost:62862/Home/Brands">Back to Brands</a></li>
+</div>
 
+<div class="row body-content">
+    <div class="col-md-3">
+        <h2>Old Models</h2>
+        <ul>
+            <li><a class="btn btn-success" href="http://localhost:62862/Home/Chevette_DL"><img src="~/images/consumo-chevette-dl-1-6.svg" alt="ASP.NET" class="img-responsive" />Chevette DL 1.6 1993</a></li>
+            <li><a class="btn btn-success" href="http://localhost:62862/Home/Chevy_500"><img src="~/images/56c37e0982bee10ed5027dcaqr-584-chevy-02.svg" alt="ASP.NET" class="img-responsive" />Chevy 500 1991</a></li>
+            <li><a class="btn btn-success" href="http://localhost:62862/Home/Omega_Suprema"><img src="~/images/omega-cd-41-1998.svg" alt="ASP.NET" class="img-responsive" />Omega Suprema CD 4.1 1995</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>New Models</h2>
+        <ul>
+        </ul>
+    </div>
+</div>

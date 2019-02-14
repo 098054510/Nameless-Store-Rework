@@ -266,6 +266,9 @@
     <Content Include="Views\Home\Golf_GTI.cshtml" />
     <Content Include="Views\Home\Jetta_TSI.cshtml" />
     <Content Include="Views\Home\Passat_VR6.cshtml" />
+    <Content Include="Views\Home\Chevette_DL.cshtml" />
+    <Content Include="Views\Home\Chevy_500.cshtml" />
+    <Content Include="Views\Home\Omega_Suprema.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

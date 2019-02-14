@@ -81,5 +81,20 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Chevette_DL()
+        {
+            return View();
+        }
+
+        public ActionResult Chevy_500()
+        {
+            return View();
+        }
+
+        public ActionResult Omega_Suprema()
+        {
+            return View();
+        }
     }
 }
