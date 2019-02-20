@@ -106,5 +106,15 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Performance_Parts()
+        {
+            return View();
+        }
+
+        public ActionResult FUll_Kit_Turbo()
+        {
+            return View();
+        }
     }
 }
