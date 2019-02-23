@@ -273,6 +273,9 @@
     <Content Include="Views\Home\Omega_Promo.cshtml" />
     <Content Include="Views\Home\Performance_Parts.cshtml" />
     <Content Include="Views\Home\Full_Kit_Turbo.cshtml" />
+    <Content Include="Views\Home\Kit_Turbo_C41GE_4C.cshtml" />
+    <Content Include="Views\Home\Thanks_For_purchase_Kit.cshtml" />
+    <Content Include="Views\Home\Kit_Turbo_AP_carburetor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

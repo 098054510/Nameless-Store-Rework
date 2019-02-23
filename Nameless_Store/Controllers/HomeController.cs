@@ -116,5 +116,20 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Kit_Turbo_C41GE_4C()
+        {
+            return View();
+        }
+
+        public ActionResult Thanks_For_purchase_Kit()
+        {
+            return View();
+        }
+
+        public ActionResult Kit_Turbo_AP_carburetor()
+        {
+            return View();
+        }
     }
 }
