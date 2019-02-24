@@ -280,6 +280,7 @@
     <Content Include="Views\Home\Kit_Turbo_AP_Intercooler.cshtml" />
     <Content Include="Views\Home\Turbo_Kit_Universal.cshtml" />
     <Content Include="Views\Home\Kit_Turbo_AP_Injection.cshtml" />
+    <Content Include="Views\Home\Turbo_Kit_JDM.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

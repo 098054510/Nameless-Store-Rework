@@ -151,5 +151,10 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Turbo_Kit_JDM()
+        {
+            return View();
+        }
     }
 }
