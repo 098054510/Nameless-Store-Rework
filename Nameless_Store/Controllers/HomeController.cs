@@ -131,5 +131,25 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Kit_To_GM_Familia_II_Engine()
+        {
+            return View();
+        }
+
+        public ActionResult Kit_Turbo_AP_Intercooler()
+        {
+            return View();
+        }
+
+        public ActionResult Turbo_Kit_Universal()
+        {
+            return View();
+        }
+
+        public ActionResult Kit_Turbo_AP_Injection()
+        {
+            return View();
+        }
     }
 }

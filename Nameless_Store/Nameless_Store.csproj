@@ -276,6 +276,10 @@
     <Content Include="Views\Home\Kit_Turbo_C41GE_4C.cshtml" />
     <Content Include="Views\Home\Thanks_For_purchase_Kit.cshtml" />
     <Content Include="Views\Home\Kit_Turbo_AP_carburetor.cshtml" />
+    <Content Include="Views\Home\Kit_To_GM_Familia_II_Engine.cshtml" />
+    <Content Include="Views\Home\Kit_Turbo_AP_Intercooler.cshtml" />
+    <Content Include="Views\Home\Turbo_Kit_Universal.cshtml" />
+    <Content Include="Views\Home\Kit_Turbo_AP_Injection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
