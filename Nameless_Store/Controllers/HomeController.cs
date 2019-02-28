@@ -156,5 +156,30 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
+
+        public ActionResult Performance_Parts_Page()
+        {
+            return View();
+        }
+
+        public ActionResult Mustang_Supercharger()
+        {
+            return View();
+        }
+
+        public ActionResult Supercharger_Page()
+        {
+            return View();
+        }
+
+        public ActionResult Sport_Filtre_2E()
+        {
+            return View();
+        }
+
+        public ActionResult Admission_Header()
+        {
+            return View();
+        }
     }
 }
