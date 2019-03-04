@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nameless_Store.Models
 {
-    public class DepartmentModel
+    public class NamelessStoreModel
     {
         public int ID { get; set; }
         public string Name { get; set; }
@@ -15,11 +15,11 @@ namespace Nameless_Store.Models
         public ICollection<Cars> Cars { get; set; } = new List<Cars>();
         public ICollection<Performance_parts> Performance_Parts { get; set; } = new List<Performance_parts>();
 
-        public DepartmentModel()
+        public NamelessStoreModel()
         {
         }
 
-        public DepartmentModel(int ID, string Name)
+        public NamelessStoreModel(int ID, string Name)
         {
             this.ID = ID;
             this.Name = Name;
