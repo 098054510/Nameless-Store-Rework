@@ -46,7 +46,7 @@ namespace Nameless_Store.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name")] NamelessStoreModel namelessStoreModel)
+        public ActionResult Create([Bind(Include = "ID,Name,Price")] NamelessStoreModel namelessStoreModel)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace Nameless_Store.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name")] NamelessStoreModel namelessStoreModel)
+        public ActionResult Edit([Bind(Include = "ID,Name,Price")] NamelessStoreModel namelessStoreModel)
         {
             if (ModelState.IsValid)
             {

@@ -10,6 +10,7 @@ namespace Nameless_Store.Models
     {
         public int ID { get; set; }
         public string Name { get; set; }
+        public double Price { get; set; }
         public ICollection<Brand> Brand { get; set; } = new List<Brand>();
         public ICollection<Performance_kit> Performance_kit { get; set; } = new List<Performance_kit>();
         public ICollection<Cars> Cars { get; set; } = new List<Cars>();
@@ -19,10 +20,11 @@ namespace Nameless_Store.Models
         {
         }
 
-        public NamelessStoreModel(int ID, string Name)
+        public NamelessStoreModel(int ID, string Name, double Price)
         {
             this.ID = ID;
             this.Name = Name;
+            this.Price = Price;
         }
 
         public void AddBrand(Brand B)

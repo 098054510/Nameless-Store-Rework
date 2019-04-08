@@ -110,6 +110,9 @@
     <Reference Include="Pomelo.JsonObject, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Pomelo.JsonObject.2.2.0\lib\netstandard2.0\Pomelo.JsonObject.dll</HintPath>
     </Reference>
+    <Reference Include="PowerShell, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PowerShell.1.0.0\lib\net461\PowerShell.dll</HintPath>
+    </Reference>
     <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
       <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
     </Reference>
@@ -302,6 +305,7 @@
     <Content Include="Views\NamelessStoreCart\Details.cshtml" />
     <Content Include="Views\NamelessStoreCart\Edit.cshtml" />
     <Content Include="Views\NamelessStoreCart\Index.cshtml" />
+    <Content Include="Views\Home\IndexCART.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

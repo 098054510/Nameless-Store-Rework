@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data;
+using System.Data.Entity;
+using System.Net;
+using Nameless_Store.Models;
 
 namespace Nameless_Store.Controllers
 {
     public class HomeController : Controller
     {
+        private Nameless_StoreContext db = new Nameless_StoreContext();
+
         public ActionResult Index()
         {
             return View();
@@ -178,6 +184,11 @@ namespace Nameless_Store.Controllers
         }
 
         public ActionResult Admission_Header()
+        {
+            return View();
+        }
+
+        public ActionResult IndexCART()
         {
             return View();
         }
