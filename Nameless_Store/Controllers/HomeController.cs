@@ -187,10 +187,5 @@ namespace Nameless_Store.Controllers
         {
             return View();
         }
-
-        public ActionResult IndexCART()
-        {
-            return View();
-        }
     }
 }
